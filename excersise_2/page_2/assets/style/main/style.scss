@@ -1,0 +1,88 @@
+@mixin font-big {
+    font-family: 'Intro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin font-small {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+@mixin btn {
+    background: #5222D0;
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.main__container {
+    margin: auto;
+    width: 82.5vw;
+    padding-top: 50px;
+
+    .features__title {
+        @include font-big;
+        font-size: 60px;
+        line-height: 120%;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .feaures__items {
+        display: flex;
+        flex-wrap: wrap;
+
+        .item {
+            width: 440px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+            .item__title {
+                @include font-big;
+                font-size: 30px;
+                line-height: 120%;
+            }
+
+            .item__description {
+                @include font-small;
+            }
+        }
+
+        .subscription {
+            background-color: #EC615B;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+            .subscription__title {
+                @include font-big;
+                font-size: 30px;
+                line-height: 120%;
+                color: #FFFFFF;
+                padding-bottom: 10px;
+            }
+
+            .subscription__contact {
+                @include font-small;
+                border: none;
+                margin-bottom: 20px;
+            }
+
+            .subscription__btn {
+                @include btn;
+                @include font-big;
+                font-size: 13px;
+                line-height: 13px;
+                text-decoration: none;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}

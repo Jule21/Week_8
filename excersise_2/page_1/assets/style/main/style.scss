@@ -1,0 +1,53 @@
+@mixin font-big {
+    font-family: 'Intro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin font-small {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+@mixin btn {
+    background: #5222D0;
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.main__container {
+    margin: auto;
+    width: 82.5vw;
+    padding-top: 50px;
+
+    .product {
+        width: 487px;
+
+        .product__title {
+            @include font-big;
+            font-size: 60px;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+
+        .product__description {
+            @include font-small;
+            margin-bottom: 40px;
+        }
+
+        .btn_buy {
+            @include btn;
+            @include font-big;
+            font-size: 35px;
+            line-height: 35px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+    }
+
+}

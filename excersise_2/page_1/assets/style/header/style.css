@@ -1,0 +1,19 @@
+.header__container {
+  margin: auto;
+  width: 89.5vw;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__container .btn_cart {
+  background: #5222D0;
+  border-radius: 100px;
+  padding: 15px;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Intro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+}/*# sourceMappingURL=style.css.map */

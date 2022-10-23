@@ -1,0 +1,76 @@
+.main__container {
+  margin: auto;
+  width: 82.5vw;
+  padding-top: 50px;
+}
+.main__container .features__title {
+  font-family: "Intro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.main__container .feaures__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__container .feaures__items .item {
+  width: 440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.main__container .feaures__items .item .item__title {
+  font-family: "Intro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+}
+.main__container .feaures__items .item .item__description {
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+.main__container .feaures__items .subscription {
+  background-color: #EC615B;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.main__container .feaures__items .subscription .subscription__title {
+  font-family: "Intro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+.main__container .feaures__items .subscription .subscription__contact {
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  border: none;
+  margin-bottom: 20px;
+}
+.main__container .feaures__items .subscription .subscription__btn {
+  background: #5222D0;
+  border-radius: 100px;
+  padding: 15px;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Intro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */

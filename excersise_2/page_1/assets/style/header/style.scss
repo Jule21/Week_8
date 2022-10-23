@@ -1,0 +1,28 @@
+@mixin font-big {
+    font-family: 'Intro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin btn {
+    background: #5222D0;
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.header__container {
+    margin: auto;
+    width: 89.5vw;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .btn_cart {
+        @include btn;
+        @include font-big;
+        font-size: 13px;
+        line-height: 13px;
+    }
+}

@@ -1,0 +1,16 @@
+footer .footer__container {
+  margin: auto;
+  width: 82.5vw;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+footer .footer__container .footer__item {
+  text-decoration: none;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  padding-right: 10px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

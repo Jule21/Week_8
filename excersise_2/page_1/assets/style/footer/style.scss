@@ -1,0 +1,22 @@
+@mixin font-small {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+
+footer {
+    .footer__container {
+        margin: auto;
+        width: 82.5vw;
+        margin-top: 146px;
+
+        .footer__item {
+            text-decoration: none;
+            @include font-small;
+            padding-right: 10px;
+        }
+    }
+}
